@@ -1,0 +1,149 @@
+@font-face {
+font-family: 'Open Sans', sans-serif;
+
+
+}
+
+
+body{
+
+   background-color:#fff;
+padding: 0px;
+margin: 0px;
+   	font-family: 'Open Sans', sans-serif;
+   width: 100%;
+   height:100%;
+display: block;
+   transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+   -webkit-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+   -moz-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+   -o-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+
+
+}
+
+a{
+  list-style: none;
+  text-decoration: none;
+}
+
+a:hover{
+  list-style: none;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+.background img{
+  height:600px;
+  width:100%
+}
+
+.top-head img{
+  width:120px;
+
+}
+
+
+.section-heading h3{
+  color:#7d4725;
+  margin-top:2rem;
+}
+
+.section-heading-line {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    border-radius: 10px;
+    height: 6px;
+    background: #7d4725;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+
+.line-thin {
+    height: 4px !important;
+}
+table{
+  margin:auto !important;
+  display:table !important;
+  background:#ffff;
+/* width:100%; */
+text-align: center;
+height: auto;
+
+}
+.table-responsive {
+    display: table;
+}
+thead{
+  background: #7d4409;
+  color:#fff
+}
+.results tr[visible='false'],
+.no-result{
+  display:none;
+}
+
+.results tr[visible='true']{
+  display:table-row;
+}
+
+.counter{
+  padding:8px; 
+  color:#ccc;
+}
+.bd-highlight h3{
+  margin-top:1rem;
+  color:#c0562a
+}
+.fa-folder-open-o{
+  font-size:2rem;
+  color:#c0562a;
+}
+.client{
+ 
+    background: url(../img/IMG-20200209-WA0033.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: table;
+    height: 800px;
+}
+.limiter-overlay {
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(55, 21, 8, 0.8), rgba(36, 12, 4, 0.8));
+  -webkit-background-image: linear-gradient(to right, rgba(55, 21, 8, 0.8), rgba(36, 12, 4, 0.8));
+  -moz-background-image: linear-gradient(to right, rgba(55, 21, 8, 0.8), rgba(36, 12, 4, 0.8));
+  -o-background-image: linear-gradient(to right, rgba(55, 21, 8, 0.8), rgba(36, 12, 4, 0.8));
+}
+.client h4{
+  color:#fff;
+  margin: auto;
+  display: table;
+  padding-top:5rem;
+}
+.imj{
+  width:500px;
+  margin:auto;
+  display: table;
+}
+/* .pdd{
+  width:300px
+} */
+
