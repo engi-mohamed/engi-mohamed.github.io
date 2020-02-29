@@ -150,3 +150,13 @@ thead{
   padding-bottom:3rem
 }
 
+.alert-primary {
+  
+  background: #fcdf9f;
+  border: #fcdf9f;
+  margin: auto;
+  color: #331d34;
+  margin-bottom: 10px;
+  text-align: right;
+  font-size:20px;
+}
